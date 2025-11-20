@@ -2,12 +2,17 @@ import { CiGlobe } from "react-icons/ci";
 import { FaLinkedin, FaXTwitter, FaYoutube } from "react-icons/fa6";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoFacebook } from "react-icons/io";
+import { RiFacebookBoxLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
 const GeneralFooter = () => {
   return (
     <div className="flex flex-col bg-black text-[#626262] text-[14px] font-semibold px-32">
-      <img src="/public/images/logo-full-white.svg" alt="logo-full-white" className="w-32  py-[50px]"/>
+      <img
+        src="/public/images/logo-full-white.svg"
+        alt="logo-full-white"
+        className="w-32  py-[50px]"
+      />
       <div className="flex flex-wrap">
         <div className="flex flex-col gap-3 w-[25%] mb-7">
           <h1 className="text-white mb-3 text-[16px]">Personal</h1>
@@ -21,14 +26,20 @@ const GeneralFooter = () => {
           <h1 className="text-white mb-3 text-[16px]">Business</h1>
           <Link>On Ramps</Link>
           <Link>Off Ramps</Link>
-          <div><Link>Virtual Accounts </Link><span>New!</span></div>
+          <div>
+            <Link>Virtual Accounts </Link>
+            <span>New!</span>
+          </div>
           <Link>MoonPay Discover</Link>
           <Link>MoonPay Commerce</Link>
         </div>
         <div className="flex flex-col gap-3 w-[25%] mb-7">
           <h1 className="text-white mb-3 text-[16px]">Company</h1>
           <Link>About Us</Link>
-          <div><Link>Careers </Link><span>We're hiring</span></div>
+          <div>
+            <Link>Careers </Link>
+            <span>We're hiring</span>
+          </div>
           <Link>Newsroom</Link>
           <Link>Media</Link>
           <Link>Changelog</Link>
@@ -84,21 +95,44 @@ const GeneralFooter = () => {
           <Link>Privacy Policy</Link>
           <Link>Cookie Policy</Link>
           <Link>Terms of Use</Link>
-        </div>        
-      </div>
-      <div className="flex justify-between items-center">
-        <div className="flex justify-between">
-          <IoLogoFacebook size={25} className="bg-white" />
-          <FaXTwitter size={25} color="white" />
-          <FaLinkedin size={25} />
-          <FiInstagram size={25} color="white" />
-          <FaYoutube size={25} />
         </div>
-        <div className="flex justify-between">
-          <CiGlobe size={20} strokeWidth={1} />
+      </div>
+      <div className="flex justify-between items-center my-[10px]">
+        <div className="flex justify-between gap-16">
+          <IoLogoFacebook size={25} color="white" />
+          <FaXTwitter size={25} color="white" />
+          <FaLinkedin size={25} color="white" />
+          <FiInstagram size={25} color="white" />
+          <FaYoutube size={25} color="white" />
+        </div>
+        <div className="flex justify-between gap-3 text-white">
+          <CiGlobe size={20} strokeWidth={1} color="white" />
           <span>English</span>
         </div>
       </div>
+      <div className="flex justify-between items-center my-[40px]">
+        <div className="flex flex-col gap-10 w-[42%] ">
+          <div className="flex justify-between gap-3">
+            <input
+              type="email"
+              placeholder="Email address"
+              className="bg-[#2A2A2A] font-normal rounded-lg w-[300px] py-2 px-5"
+            />
+            <Link className="bg-[#2A2A2A] rounded-lg text-white px-5 py-2">
+              Subscribe
+            </Link>
+          </div>
+          <div className="flex items-center gap-3 font-normal">
+            <input type="checkbox" className="w-12 bg-transparent" />
+            <p className="text-xs">Check this box to receive communications from MoonPay. You can unsubscribe at any time. We look after your data - see our <span className="underline">privacy policy.</span></p>
+          </div>
+        </div>
+        <div className="flex justify-between items-center gap-5">
+          <img src="/images/app-store-en.png" alt="app store" />
+          <img src="/images/google-play-en.png" alt="google play" />
+        </div>
+      </div>
+      <div className="text-xs font-normal mb-[70px]">All rights reserved. MoonPay USA LLC is a registered money service business (NMLS ID: 2071245). For Law Enforcement requests please direct your official document to our compliance team here.</div>
     </div>
   );
 };
