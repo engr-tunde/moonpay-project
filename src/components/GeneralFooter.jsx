@@ -1,3 +1,7 @@
+import { CiGlobe } from "react-icons/ci";
+import { FaLinkedin, FaXTwitter, FaYoutube } from "react-icons/fa6";
+import { FiInstagram } from "react-icons/fi";
+import { IoLogoFacebook } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 const GeneralFooter = () => {
@@ -81,6 +85,19 @@ const GeneralFooter = () => {
           <Link>Cookie Policy</Link>
           <Link>Terms of Use</Link>
         </div>        
+      </div>
+      <div className="flex justify-between items-center">
+        <div className="flex justify-between">
+          <IoLogoFacebook size={25} className="bg-white" />
+          <FaXTwitter size={25} color="white" />
+          <FaLinkedin size={25} />
+          <FiInstagram size={25} color="white" />
+          <FaYoutube size={25} />
+        </div>
+        <div className="flex justify-between">
+          <CiGlobe size={20} strokeWidth={1} />
+          <span>English</span>
+        </div>
       </div>
     </div>
   );
