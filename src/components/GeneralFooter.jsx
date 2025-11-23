@@ -97,7 +97,7 @@ const GeneralFooter = () => {
           <Link>Terms of Use</Link>
         </div>
       </div>
-      <div className="flex justify-between items-center my-[10px]">
+      <div className="flex justify-between items-center my-2.5">
         <div className="flex justify-between gap-16">
           <IoLogoFacebook size={25} color="white" />
           <FaXTwitter size={25} color="white" />
@@ -110,7 +110,7 @@ const GeneralFooter = () => {
           <span>English</span>
         </div>
       </div>
-      <div className="flex justify-between items-center my-[40px]">
+      <div className="flex justify-between items-center my-10">
         <div className="flex flex-col gap-10 w-[42%] ">
           <div className="flex justify-between gap-3">
             <input

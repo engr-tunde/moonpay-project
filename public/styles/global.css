@@ -13,6 +13,7 @@
 
 body {
   font-family: Sohn, Arial, Helvetica, sans-serif;
+  overflow: clip;
 }
 
 .container {
