@@ -67,7 +67,6 @@ const ExitSwapDropDown =()=>{
         {/* Left side */}
         <div className="flex items-center gap-8">
           <img src="/images/logo-coloured.png" alt="" className="h-7" />
-
           <div className="flex gap-4 items-center">
             <Link to="/" className="text-black font-semibold">
               Individuals
