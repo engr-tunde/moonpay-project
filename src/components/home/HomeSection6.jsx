@@ -8,7 +8,7 @@ const HomeSection6 =()=>{
                 
                 {/*Top Animation*/}
                 <div className="flex gap-2 reverse-move w-[4200px] text-[15px]">
-                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[48%]">
+                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -17,7 +17,7 @@ const HomeSection6 =()=>{
                         <p className="font-semibold">Stacey Lewis</p>
                     </div>
 
-                      <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[42%] ">
+                      <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%] ">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -26,7 +26,7 @@ const HomeSection6 =()=>{
                         <p className="font-semibold">Olivia Jacobson</p>
                     </div>
 
-                     <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[42%]">
+                     <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -35,7 +35,7 @@ const HomeSection6 =()=>{
                         <p className="font-semibold">Milton Rodriguez</p>
                     </div>
 
-                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[42%]">
+                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -44,7 +44,7 @@ const HomeSection6 =()=>{
                         <p className="font-semibold">Lasharon Hill</p>
                     </div>
 
-                     <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[42%]">
+                     <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -53,7 +53,7 @@ const HomeSection6 =()=>{
                         <p className="font-semibold">Stuart Graham</p>
                     </div>
 
-                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[42%]">
+                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -62,7 +62,7 @@ const HomeSection6 =()=>{
                         <p className="font-semibold">William M.</p>
                     </div>
 
-                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[42%]">
+                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -71,7 +71,7 @@ const HomeSection6 =()=>{
                         <p className="font-semibold">Sylvia Williams</p>
                     </div>
 
-                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[42%]">
+                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -80,7 +80,7 @@ const HomeSection6 =()=>{
                         <p className="font-semibold">JBX Digital</p>
                     </div>
 
-                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[42%]">
+                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -89,7 +89,7 @@ const HomeSection6 =()=>{
                         <p className="font-semibold">Stacey Lewis</p>
                     </div>
 
-                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[42%]">
+                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -103,7 +103,7 @@ const HomeSection6 =()=>{
 
 {/*Bottom Animation*/}
                  <div className="flex gap-2 move w-[4200px] text-[15px]">
-                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[48%]">
+                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -112,7 +112,7 @@ const HomeSection6 =()=>{
                         <p className="font-semibold">Stacey Lewis</p>
                     </div>
 
-                      <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[42%]">
+                      <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -121,7 +121,7 @@ const HomeSection6 =()=>{
                         <p className="font-semibold">Olivia Jacobson</p>
                     </div>
 
-                     <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[42%]">
+                     <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-5 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -130,7 +130,7 @@ const HomeSection6 =()=>{
                         <p className="font-semibold">Milton Rodriguez</p>
                     </div>
 
-                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[42%]">
+                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -139,7 +139,7 @@ const HomeSection6 =()=>{
                         <p className="font-semibold">Lasharon Hill</p>
                     </div>
 
-                     <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[42%]">
+                     <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -148,7 +148,7 @@ const HomeSection6 =()=>{
                         <p className="font-semibold">Stuart Graham</p>
                     </div>
 
-                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[42%]">
+                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -157,7 +157,7 @@ const HomeSection6 =()=>{
                         <p className="font-semibold">William M.</p>
                     </div>
 
-                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[42%]">
+                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -166,7 +166,7 @@ const HomeSection6 =()=>{
                         <p className="font-semibold">Sylvia Williams</p>
                     </div>
 
-                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[42%]">
+                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -175,7 +175,7 @@ const HomeSection6 =()=>{
                         <p className="font-semibold">JBX Digital</p>
                     </div>
 
-                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[42%]">
+                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>
@@ -184,7 +184,7 @@ const HomeSection6 =()=>{
                         <p className="font-semibold">Stacey Lewis</p>
                     </div>
 
-                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-14 px-7 w-[42%]">
+                    <div className="bg-[#f9f8fb] rounded-3xl flex flex-col gap-4 py-10 lg:py-14 px-4 lg:px-7 w-[20%] lg:w-[42%]">
                        <div className="flex gap-3"> ★★★★★ <button className="border-[#ccc] border-2 px-3 rounded-lg text-[14px] flex items-center gap-2 font-semibold"><GrStatusGood /> Verified Review</button>
                         </div>
                         <p>

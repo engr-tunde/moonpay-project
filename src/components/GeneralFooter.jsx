@@ -14,9 +14,33 @@ const GeneralFooter = () => {
   return (
     <div className="bg-black p-10">
       <div className="container text-white">
-         <img src="/images/logo-full-white.svg" alt="" className="h-5" />
+         <img src="/images/logo-full-white.svg" alt="" className="h-5 mb-4 lg:mb-10" />
 
-         <div className="grid grid-cols-4 mt-7">
+
+         <div className="flex flex-col lg:hidden gap-10 mb-7">
+             <p className="text-[11.2px] text-[#5e5d5d]">All rights reserved. MoonPay USA LLC is a registered money service business (NMLS ID: 2071245). For Law Enforcement requests please direct your official document to our compliance team here.
+             </p>
+
+              <div>
+                <Link to="" className="text-[16px] flex items-center gap-2"><PiGlobeSimpleBold />
+                   English        
+                </Link>
+              </div>
+
+              <form action="" className="flex flex-col gap-4">
+                <div className="flex gap-1">
+                 <input type="email" placeholder="Email address" className="text-white text-[14px] py-1 px-4  rounded-lg outline-neutral-200 w-[240px] bg-[#2a2a2a]" />
+                <input type="submit" value="Subscribe" className="bg-[#2a2a2a] text-[13px] py-2 px-3 rounded-lg  w-[100px]"/>
+                </div>
+                <div className="flex gap-2">
+                  <input type="checkbox" className="bg-[#2a2a2a] accent-[#2a2a2a] text-[#2a2a2a] w-[18px]"/>
+                  <label htmlFor="" className="w-[420px] text-[12px] text-[#434235] leading-4">
+                  Check this box to receive communications from MoonPay. You can unsubscribe at any time. We look after your data - see our privacy policy.</label>
+                </div> 
+              </form>
+         </div>
+
+         <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 lg:gap-0 mt-7">
             <div className="col-span-1 flex flex-col gap-6">
               <h2 className="font-semibold text-[15px]">Personal</h2>
               <div className="flex flex-col gap-4 text-[#626262] text-[13px]">
@@ -26,7 +50,6 @@ const GeneralFooter = () => {
               <Link className="hover:text-[#fff]">Learn about Crypto</Link>
               <Link className="hover:text-[#fff]">Crypto Price</Link>
               </div>
-             
             </div>
 
             <div className="col-span-1 flex flex-col gap-4">
@@ -64,7 +87,7 @@ const GeneralFooter = () => {
          </div>
 
 
-          <div className="grid grid-cols-4 mt-7">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 lg:gap-0 mt-7">
             <div className="col-span-1 flex flex-col gap-6">
               <h2 className="font-semibold text-[15px]">Learn</h2>
               <div className="flex flex-col gap-4 text-[#626262] text-[13px]">
@@ -107,7 +130,7 @@ const GeneralFooter = () => {
             </div>
          </div>
 
-          <div className="grid grid-cols-4 mt-7">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 lg:gap-0 mt-7">
             <div className="col-span-1 flex flex-col gap-6">
               <h2 className="font-semibold text-[15px]">Crypto Prices</h2>
                <div className=" flex flex-col gap-4 text-[#626262] text-[13px]">
@@ -130,26 +153,24 @@ const GeneralFooter = () => {
             </div>
             </div>
 
-            <div className="flex justify-between mt-9 ">
-              <div className=" flex gap-10 text-[22.5px]">
-                 <Link><ImFacebook2 /></Link>
+            <div className="flex justify-between mt-9 mb-9 lg:mb-0 ">
+              <div className="flex gap-5 lg:gap-10 text-[22.5px]">
+                <Link><ImFacebook2 /></Link>
                 <Link><BsTwitterX /></Link>
                 <Link><FaLinkedin /></Link>
                 <Link><PiInstagramLogoBold /></Link>
-                <Link><IoLogoYoutube /></Link>
-               
+                <Link><IoLogoYoutube /></Link> 
               </div>
               <div>
-                <Link to="" className="text-[18px] flex items-center gap-2"><PiGlobeSimpleBold />
+                <Link to="" className="text-[18px] hidden lg:flex items-center gap-2"><PiGlobeSimpleBold />
                    English        
                 </Link>
-              </div>
-              
+              </div>   
             </div>
 
-            <div className="flex mt-7 items-center justify-between">
+            <div className="hidden lg:flex flex-col lg:flex-row mt-7 items-center justify-between">
               <form action="" className="flex flex-col gap-10">
-              <div className="flex gap-3">
+                <div className="flex gap-3">
                  <input type="email" placeholder="Email address" className="text-white py-2 px-5  rounded-lg outline-neutral-200 w-[340px] bg-[#2a2a2a]" />
                 <input type="submit" value="Subscribe" className="bg-[#2a2a2a] py-1 px-3 rounded-xl "/>
                 </div>
@@ -157,19 +178,22 @@ const GeneralFooter = () => {
                   <input type="checkbox" className="bg-[#2a2a2a] accent-[#2a2a2a] text-[#2a2a2a] w-[16px]"/>
                   <label htmlFor="" className="w-[420px] text-[12px] text-[#434235] leading-5">
                   Check this box to receive communications from MoonPay. You can unsubscribe at any time. We look after your data - see our privacy policy.</label>
-                </div>
-                
+                </div> 
               </form>
               <div className="flex gap-3">
                   <img src="/images/app-store-en.png" alt="" className="cursor-pointer" />
                    <img src="/images/google-play-en.png" alt="" className="cursor-pointer" />
               </div>
             </div>
+            <div className="flex lg:hidden justify-center gap-3">
+                  <img src="/images/app-store-en.png" alt="" className="cursor-pointer" />
+                   <img src="/images/google-play-en.png" alt="" className="cursor-pointer" />
+              </div>
           
-             <div className="flex items-center justify-between gap-4 mt-7">
+             <div className="hidden lg:flex items-center justify-between gap-4 mt-7">
                 <p className="text-[11.5px] text-[#2a2a2a]">All rights reserved. MoonPay USA LLC is a registered money service business (NMLS ID: 2071245). For Law Enforcement requests please direct your official document to our compliance team here.</p>
 
-                <div className="w-[100px] h-[100px] bg-[#1a1a1a] border-[0.7px] border-[#fff] rounded-md flex items-center justify-center cursor-pointer">
+                <div className="lg:w-[100px] h-[100px] bg-[#1a1a1a] border-[0.7px] border-[#fff] rounded-md flex items-center justify-center cursor-pointer">
                   <img src="../../public/images/app-download-qr-code.svg" alt="" className="w-[80%] h-[80%]" />
                 </div>
               </div>
