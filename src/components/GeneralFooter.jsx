@@ -1,100 +1,111 @@
+import { useState } from "react";
 import { CiGlobe } from "react-icons/ci";
 import { FaLinkedin, FaXTwitter, FaYoutube } from "react-icons/fa6";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoFacebook } from "react-icons/io";
-import { RiFacebookBoxLine } from "react-icons/ri";
+import { RiArrowRightWideLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
 const GeneralFooter = () => {
+  const[showLang, setshowLang]= useState(false)
+
+  const handleShow = () => {
+    setshowLang(!showLang)
+  }
+  const handleclose = () => {
+    setshowLang(false)
+  }
+
+
   return (
-    <div className="flex flex-col bg-black text-[#626262] text-[14px] font-semibold px-32">
+    <div className="flex flex-col bg-black text-[#626262] text-[14px] font-semibold px-32 foot">
       <img
-        src="/public/images/logo-full-white.svg"
+        src="/images/logo-full-white.svg"
         alt="logo-full-white"
         className="w-32  py-[50px]"
       />
       <div className="flex flex-wrap">
         <div className="flex flex-col gap-3 w-[25%] mb-7">
           <h1 className="text-white mb-3 text-[16px]">Personal</h1>
-          <Link>Buy Crypto</Link>
-          <Link>Sell Crypto</Link>
-          <Link>Swap Crypto</Link>
-          <Link>Learn about Crypto</Link>
-          <Link>Crypto Price</Link>
+          <Link className="hover:text-white w-max" >Buy Crypto</Link>
+          <Link className="hover:text-white w-max" >Sell Crypto</Link>
+          <Link className="hover:text-white w-max" >Swap Crypto</Link>
+          <Link className="hover:text-white w-max" >Learn about Crypto</Link>
+          <Link className="hover:text-white w-max" >Crypto Price</Link>
         </div>
         <div className="flex flex-col gap-3 w-[25%] mb-7">
           <h1 className="text-white mb-3 text-[16px]">Business</h1>
-          <Link>On Ramps</Link>
-          <Link>Off Ramps</Link>
-          <div>
+          <Link className="hover:text-white w-max" >On Ramps</Link>
+          <Link className="hover:text-white w-max" >Off Ramps</Link>
+          <div className="flex justify-between items-center gap-4 text-xs hover:text-white w-max">
             <Link>Virtual Accounts </Link>
-            <span>New!</span>
+            <span className="text-white bg-[#7D00FF] p-2 rounded-lg">New!</span>
           </div>
-          <Link>MoonPay Discover</Link>
-          <Link>MoonPay Commerce</Link>
+          <Link className="hover:text-white w-max" >MoonPay Discover</Link>
+          <Link className="hover:text-white w-max" >MoonPay Commerce</Link>
         </div>
         <div className="flex flex-col gap-3 w-[25%] mb-7">
           <h1 className="text-white mb-3 text-[16px]">Company</h1>
-          <Link>About Us</Link>
-          <div>
+          <Link className="hover:text-white w-max" >About Us</Link>
+          <div className="flex justify-between items-center gap-4 text-xs hover:text-white w-max" >
             <Link>Careers </Link>
-            <span>We're hiring</span>
+            <span className="text-white bg-[#7D00FF] p-2 rounded-lg">We're hiring</span>
           </div>
-          <Link>Newsroom</Link>
-          <Link>Media</Link>
-          <Link>Changelog</Link>
+          <Link className="hover:text-white w-max" >Newsroom</Link>
+          <Link className="hover:text-white w-max" >Media</Link>
+          <Link className="hover:text-white w-max" >Changelog</Link>
         </div>
         <div className="flex flex-col gap-3 w-[25%] mb-7">
           <h1 className="text-white mb-3 text-[16px]">Support</h1>
-          <Link>API Docs</Link>
-          <Link>Help Center</Link>
-          <Link>Contact Us</Link>
-          <Link>Status</Link>
-          <Link>Security</Link>
+          <Link className="hover:text-white w-max" >API Docs</Link>
+          <Link className="hover:text-white w-max" >Help Center</Link>
+          <Link className="hover:text-white w-max" >Contact Us</Link>
+          <Link className="hover:text-white w-max" >Status</Link>
+          <Link className="hover:text-white w-max" >Security</Link>
         </div>
         <div className="flex flex-col gap-3 w-[25%] mb-7">
           <h1 className="text-white mb-3 text-[16px]">Learn</h1>
-          <Link>What is Blockchain?</Link>
-          <Link>What are NFTs?</Link>
-          <Link>What is Bitcoin mining?</Link>
-          <Link>What is DeFi?</Link>
-          <Link>What is crypto staking?</Link>
+          <Link className="hover:text-white w-max">What is Blockchain?</Link>
+          <Link className="hover:text-white w-max">What are NFTs?</Link>
+          <Link className="hover:text-white w-max">What is Bitcoin mining?</Link>
+          <Link className="hover:text-white w-max">What is DeFi?</Link>
+          <Link className="hover:text-white w-max">What is crypto staking?</Link>
         </div>
         <div className="flex flex-col gap-3 w-[25%] mb-7">
           <h1 className="text-white mb-3 text-[16px]">Buy</h1>
-          <Link>Buy Bitcoin</Link>
-          <Link>Buy Ethereum</Link>
-          <Link>Buy Solana</Link>
-          <Link>Buy Cardano</Link>
+          <Link className="hover:text-white w-max">Buy Bitcoin</Link>
+          <Link className="hover:text-white w-max">Buy Ethereum</Link>
+          <Link className="hover:text-white w-max">Buy Solana</Link>
+          <Link className="hover:text-white w-max">Buy Cardano</Link>
         </div>
         <div className="flex flex-col gap-3 w-[25%] mb-7">
           <h1 className="text-white mb-3 text-[16px]">Sell</h1>
-          <Link>Sell Bitcoin</Link>
-          <Link>Sell Ethereum</Link>
-          <Link>Sell XRP</Link>
-          <Link>Sell Solana</Link>
+          <Link className="hover:text-white w-max">Sell Bitcoin</Link>
+          <Link className="hover:text-white w-max">Sell Ethereum</Link>
+          <Link className="hover:text-white w-max">Sell XRP</Link>
+          <Link className="hover:text-white w-max">Sell Solana</Link>
         </div>
         <div className="flex flex-col gap-3 w-[25%] mb-7">
           <h1 className="text-white mb-3 text-[16px]">Swap</h1>
-          <Link>Swap Ethereum</Link>
-          <Link>Swap SOL</Link>
-          <Link>Swap Aave</Link>
-          <Link>Swap Chainlink</Link>
+          <Link className="hover:text-white w-max">Swap Ethereum</Link>
+          <Link className="hover:text-white w-max">Swap SOL</Link>
+          <Link className="hover:text-white w-max">Swap Aave</Link>
+          <Link className="hover:text-white w-max">Swap Chainlink</Link>
         </div>
         <div className="flex flex-col gap-3 w-[25%] mb-7">
           <h1 className="text-white mb-3 text-[16px]">Crypto Prices</h1>
-          <Link>Bitcoin Price</Link>
-          <Link>Ethereum Price</Link>
-          <Link>Dogecoin Price</Link>
-          <Link>XRP Price</Link>
-          <Link>Cardano Price</Link>
+          <Link className="hover:text-white w-max">Bitcoin Price</Link>
+          <Link className="hover:text-white w-max">Ethereum Price</Link>
+          <Link className="hover:text-white w-max">Dogecoin Price</Link>
+          <Link className="hover:text-white w-max">XRP Price</Link>
+          <Link className="hover:text-white w-max">Cardano Price</Link>
         </div>
         <div className="flex flex-col gap-3 w-[20%] mb-7">
           <h1 className="text-white mb-3 text-[16px]">Legal</h1>
-          <Link>Licenses</Link>
-          <Link>Privacy Policy</Link>
-          <Link>Cookie Policy</Link>
-          <Link>Terms of Use</Link>
+          <Link className="hover:text-white w-max">Licenses</Link>
+          <Link className="hover:text-white w-max">Privacy Policy</Link>
+          <Link className="hover:text-white w-max">Cookie Policy</Link>
+          <Link className="hover:text-white w-max">Terms of Use</Link>
         </div>
       </div>
       <div className="flex justify-between items-center my-2.5">
@@ -105,9 +116,22 @@ const GeneralFooter = () => {
           <FiInstagram size={25} color="white" />
           <FaYoutube size={25} color="white" />
         </div>
-        <div className="flex justify-between gap-3 text-white">
-          <CiGlobe size={20} strokeWidth={1} color="white" />
-          <span>English</span>
+        <div className="relative flex justify-between items-center my-2.5">
+          <div className="relative group flex items-center gap-2 cursor-pointer">
+            <CiGlobe size={20} strokeWidth={1} color="white" />
+            <span>English</span>
+
+            {/* Dropdown */}
+            <div className="absolute left-0 top-full mt-2 hidden group-hover:block bg-[#2A2A2A] shadow-lg rounded-lg z-50">
+              <div className="flex flex-col px-2 py-5 rounded-lg overflow-visible">
+                <p>Language</p>
+                <div className="flex items-center gap-1">
+                  <p>English</p>
+                  <RiArrowRightWideLine />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="flex justify-between items-center my-10">

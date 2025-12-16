@@ -4,8 +4,8 @@ import GeneralHeader from "../components/GeneralHeader";
 
 const GeneralLayout = () => {
   return (
-    <div className="">
-      <GeneralHeader />
+    <div className="relative">
+      {/* <GeneralHeader className="absolute"/> */}
       <Outlet />
       <GeneralFooter />
     </div>
