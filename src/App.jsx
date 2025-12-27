@@ -1,0 +1,42 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "../public/styles/global.css";
+import { ToastContainer } from "react-toastify";
+import GeneralLayout from "./layouts/GeneralLayout";
+import HomePage from "./pages";
+import SwapPage from "./pages/swap";
+
+function App() {
+  return (
+    <>
+      <BrowserRouter>
+        <ToastContainer
+          position="top-right"
+          autoClose={3000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+        />
+        <Routes>
+          <Route element={<GeneralLayout />}>
+            <Route path="/" element={<HomePage />} />
+          </Route>
+
+        <Route element={<GeneralLayout />}>
+            <Route path="/swap" element={<SwapPage />} />
+          </Route>
+          
+
+          
+
+         
+          
+         
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
+}
+
+export default App;
