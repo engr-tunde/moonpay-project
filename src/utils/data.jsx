@@ -512,3 +512,42 @@ export const BizFinance = [
         content: "Pay contractors and employees worldwide in stablecoins or local fiat, with near-instant settlement and less cross-border friction.",
     },
 ]
+
+export const BizTeam = [
+    {
+        img: "/public/images/ledger-1.jpg",
+        icon: "/public/assets/Ledger.png",
+        title: "Right from day one, MoonPay's exceptional product surpassed our expectations, thanks to its seamless integration process that allowed us to hit the ground running effortlessly.",
+        content: "What truly sets MoonPay apart is the consistent and reliable support that accompanies this journey – quick, effective, and always there when we needed it. Their comprehensive developer website is invaluable; it provides solutions to integration challenges, making it a go-to resource. Moreover, MoonPay's responsive support team truly listens to our needs, enhancing the overall experience and making them a great partner to work with.",
+        profileimg: "/public/images/ledger-mark.png",
+        name: "The Ledger Team",
+        team: "",
+    },
+    {
+        img: "/public/images/phantom-1.jpg",
+        icon: "/public/images/Phantom-Logo-Black 4-1.png",
+        title: "Choosing MoonPay has been a great decision for us.",
+        content: "The product’s excellence has led to an amazing shift in how we onboard new users and help them fund their wallets. Seamlessly integrating it into our workflow was a breeze, and the support team’s prompt and effective solutions have been a constant reassurance.",
+        profileimg: "/public/assets/phantom-mark.png",
+        name: "The Phantom Team",
+        team: "",
+    },
+    {
+        img: "/public/images/bitcoin-com.jpg",
+        icon: "/public/assets/btc-logo.png",
+        title: "Increased revenue by over 500% after integrating MoonPay’s global payments solution.",
+        content: "“MoonPay’s payments solution has been instrumental in growing revenues at Bitcoin.com. Their product is not only built with the user experience in mind — for merchants, it is safe, fast, and highly scalable.”",
+        profileimg: "/public/images/picmqdsl5mi-69GG7GRWUENYiwIW4Wwwvw.png",
+        name: "Dennis Jarvis",
+        team: "CEO,Bitcoin.com",
+    },
+    {
+        img: "/public/images/mastercard-partner-image.png",
+        icon: "/public/assets/mastercard-logo-v2.png",
+        title: "A deep, seamless integration that surpassed expectations",
+        content: "I've been working with agencies my entire career, and I haven't seen the level of detail, strategy, and forward-thinking vision like what I've experienced at Otherlife. Their approach is truly unparalleled, consistently demonstrating a deep understanding of market dynamics and a commitment to innovation.",
+        profileimg: "/public/images/mc-logomark-v2.png",
+        name: "Sebastian Oddo",
+        team: "Global VP Marketing, Mastercard",
+    },
+]

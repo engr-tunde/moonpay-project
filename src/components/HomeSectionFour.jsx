@@ -16,7 +16,7 @@ const HomeSectionFour = () => {
             <div className="grid grid-cols-3 gap-2">
                 {AboutCrypto.map((element,i)=>(
                     <div className="h-[450px] flex flex-col gap-8 bg-[#F9F8FB] pb-8 text-left rounded-[30px]" key={i}>
-                        <video src={`/videos/${element.img}`} alt="" className=""/>
+                        <video src={`/videos/${element.img}`} alt="" autoPlay loop muted/>
                         <div className="flex flex-col justify-between h-60 pl-6 pr-2">
                             <div className="flex flex-col justify-start gap-2">
                                 <p className="text-3xl font-bold">{element.heading}</p>

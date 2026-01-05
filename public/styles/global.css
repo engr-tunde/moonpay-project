@@ -8,12 +8,14 @@
 
 * {
   box-sizing: border-box;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
+
+
 
 body {
   font-family: Sohn, Arial, Helvetica, sans-serif;
-  overflow: clip;
+  /* overflow-y: scroll; */
 }
 
 .container {

@@ -1,10 +1,10 @@
-import BusinessAboutProduct from "../components/business/BusinessAboutProduct";
 import BusinessGradient from "../components/business/BusinessGradient";
 import BusinessMain from "../components/business/BusinessMain";
 import BusinessSectionFour from "../components/business/BusinessSectionFour";
 import BusinessSectionThree from "../components/business/BusinessSectionThree";
 import BusinessSectionTwo from "../components/business/BusinessSectionTwo";
-import BusinessTestimonial from "../components/business/BusinessTestimonial";
+import BusinessBarq from "../components/business/BusinessBarq";
+import BusinessTeam from "../components/business/BusinessTeam";
 
 const Business = () => {
     return(
@@ -14,8 +14,8 @@ const Business = () => {
             <BusinessSectionThree />
             <BusinessSectionFour />
             <BusinessGradient />
-            <BusinessAboutProduct />
-            <BusinessTestimonial />
+            <BusinessTeam />
+            <BusinessBarq />
         </div>
     )
 }

@@ -5,7 +5,7 @@ const HomeSectionOne = () => {
   return (
     <div className="">
       <div className="flex flex-col justify-between gap-8 text-white relative">
-        <video src="/images/MP_WebHeader_IvanEdits-1920x1080-v1-RC.mp4"></video>
+        <video src="/images/MP_WebHeader_IvanEdits-1920x1080-v1-RC.mp4" autoPlay loop muted></video>
         <div className="flex flex-col justify-center gap-10 px-16 absolute w-full h-screen leading-normal">
           <GeneralHeader />
           <div className="flex">
